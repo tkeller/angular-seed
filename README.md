@@ -3,18 +3,20 @@
 I created this fork of Angularjs because as I've been enjoying finding excuses to play with this awesome framework.
 I found myself constantly doing the same setup each time.
 
-I consistently use HAML, SASS and CoffeeScript in my projects, and this seemed like a nice way to
-start each project.
+I consistently use [HAML](http://haml.info/), [SASS](http://sass-lang.com/) and [CoffeeScript](http://coffeescript.org/) 
+in my projects, and this seemed like a nice way to start each project.
 
 ## What's different
 
 Each folder has an additional folder called 'pre'.  Inside is the respective preProcessor you might want to use with the project.
+
 That includes:
-* 'pre' - This includes a HAML version of index.html.  (Please note I did not reproduce index-async.html because
+
+* '_pre' - This includes a HAML version of index.html.  (Please note I did not reproduce index-async.html because
   it is unnecessary to modify.)
-* 'partials/pre' - Follows the same rule as above.  I created starter HAML files for both partials.
-* 'css/pre' - which contains starter files for SASS, SCSS, LESS and STYLUS.  Whichever you might prefer.
-* 'js/pre' - all files built in CoffeeScript.
+* 'partials/_pre' - Follows the same rule as above.  I created starter HAML files for both partials.
+* 'css/_pre' - which contains starter files for [SASS](http://sass-lang.com/), [SCSS](http://sass-lang.com/), [LESS](http://lesscss.org/) and [Stylus](http://learnboost.github.com/stylus/).  Whichever you might prefer.
+* 'js/_pre' - all files built in CoffeeScript.
 * 'js/original' - original js files.  In the event you want to use others, but not CoffeeScript.
   I would recommend reverting your js files back to the originals.  For consistency.
 
