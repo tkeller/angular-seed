@@ -12,14 +12,14 @@ Each folder has an additional folder called 'pre'.  Inside is the respective pre
 
 That includes:
 
-* **_pre** - This includes a HAML version of index.html.  (Please note I did not reproduce index-async.html because
-  it is unnecessary to modify.)
-* **partials/_pre** - Follows the same rule as above.  I created starter HAML files for both partials.
-* **css/_pre** - which contains starter files for [SASS](http://sass-lang.com/), [SCSS](http://sass-lang.com/), [LESS](http://lesscss.org/) and [Stylus](http://learnboost.github.com/stylus/).  Whichever you might prefer.
-* **js/_pre** - all files built in CoffeeScript.
-* **js/original** - original js files.  In the event you want to use others, but not CoffeeScript.
+* **_pre** - This includes a HAML version of index.html.
+* **partials/_pre** - Starter HAML files for both partials.
+* **css/_pre** - Starter files for [SASS](http://sass-lang.com/), [SCSS](http://sass-lang.com/), [LESS](http://lesscss.org/) and [Stylus](http://learnboost.github.com/stylus/).  Whichever you might prefer.
+* **js/_pre** - All js files built in CoffeeScript.
+* **js/original** - Original js files.  In the event you want to use others, but not CoffeeScript.
   I would recommend reverting your js files back to the originals.  For consistency.
 
+- Hope you like it.  If its not your cup of tea.  Make sure to head back to [AngularJS on GitHub](https://github.com/angular/angular-seed/) for the original!
 ****
 
 # angular-seed — the seed for AngularJS apps
