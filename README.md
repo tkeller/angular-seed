@@ -8,7 +8,7 @@ in my projects, and this seemed like a nice way to start each project.
 
 This version of angular-seed provides seed files for: [HAML](http://haml.info/), [CoffeeScript](http://coffeescript.org/), [SASS](http://sass-lang.com/), [SCSS](http://sass-lang.com/), [LESS](http://lesscss.org/) and [Stylus](http://learnboost.github.com/stylus/).
 
-Each seed file can be removed if you don't want to use them.  Keep the version of CSS preProcessor you like to use, delete the rest.  Delete HAML folders or CoffeeScript if you don't want to use them.  Totally up to you.
+Each seed file can be removed if you don't want to use them.  Keep the version of CSS preProcessor you like to use, delete the rest.  Delete HAML folders or CoffeeScript if its not your thing.  Totally up to you.
 
 ## What's different
 
