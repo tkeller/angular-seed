@@ -10,7 +10,9 @@ This version of angular-seed provides seed files for: [HAML](http://haml.info/),
 
 Each seed file can be removed if you don't want to use them.  Keep the version of CSS preProcessor you like to use, delete the rest.  Delete HAML folders or CoffeeScript if its not your thing.  Totally up to you.
 
-## What's different
+* If you don't want to use CoffeeScript, make sure to replace js files with the duplicates in js/_originals.  That way you don't have to deal with function wrappers.
+
+### What's different
 
 Each folder has an additional folder called 'pre'.  Inside is the respective preProcessor you might want to use with the project.
 
@@ -21,7 +23,7 @@ That includes:
 * **css/_pre** - Starter files for [SASS](http://sass-lang.com/), [SCSS](http://sass-lang.com/), [LESS](http://lesscss.org/) and [Stylus](http://learnboost.github.com/stylus/).  Whichever you might prefer.
 * **js/_pre** - All js files built in CoffeeScript.
 * **js/original** - Original js files.  In the event you want to use others, but not CoffeeScript.
-  I would recommend reverting your js files back to the originals.  For consistency.
+  I would recommend reverting your js files back to the originals.
 
 - Hope you like it.  If its not your cup of tea.  Make sure to head back to [AngularJS on GitHub](https://github.com/angular/angular-seed/) for the original!
 ****
