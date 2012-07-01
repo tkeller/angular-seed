@@ -1,4 +1,4 @@
-# angular-seed with preProcessors - HAML, CoffeeScript, SASS, SCSS, LESS, Stylus
+# angular-seed with HAML, CoffeeScript, SASS, SCSS, LESS, Stylus
 
 This version of angular-seed provides seed files for: [HAML](http://haml.info/), [CoffeeScript](http://coffeescript.org/), [SASS](http://sass-lang.com/), [SCSS](http://sass-lang.com/), [LESS](http://lesscss.org/) and [Stylus](http://learnboost.github.com/stylus/).
 
