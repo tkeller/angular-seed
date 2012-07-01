@@ -1,4 +1,4 @@
-# angular-seed with preProcessors
+# angular-seed with preProcessors - HAML, CoffeeScript, SASS, SCSS, LESS, Stylus
 
 I created this fork of Angularjs because I've been enjoying finding excuses to play with this awesome framework.
 But I found myself constantly doing the same setup each time.
