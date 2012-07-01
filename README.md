@@ -1,10 +1,7 @@
 # angular-seed with preProcessors
 
-I created this fork of Angularjs because as I've been enjoying finding excuses to play with this awesome framework.
+I created this fork of Angularjs because I've been enjoying finding excuses to play with this awesome framework.
 But I found myself constantly doing the same setup each time.
-
-I consistently use [HAML](http://haml.info/), [SASS](http://sass-lang.com/) and [CoffeeScript](http://coffeescript.org/) 
-in my projects, and this seemed like a nice way to start each project.
 
 This version of angular-seed provides seed files for: [HAML](http://haml.info/), [CoffeeScript](http://coffeescript.org/), [SASS](http://sass-lang.com/), [SCSS](http://sass-lang.com/), [LESS](http://lesscss.org/) and [Stylus](http://learnboost.github.com/stylus/).
 
@@ -25,7 +22,24 @@ That includes:
 * **js/original** - Original js files.  In the event you want to use others, but not CoffeeScript.
   I would recommend reverting your js files back to the originals.
 
-- Hope you like it.  If its not your cup of tea.  Make sure to head back to [AngularJS on GitHub](https://github.com/angular/angular-seed/) for the original!
+### Opinionated Branch
+
+Okay, so this part is really just for me.  But I'm happy to share it if someone out there might find it useful.
+
+This branch contains the assets I am using as I set up these demo projects.  And I'm happy to have this done once and for all.
+
+Quick highlights:
+
+* [Twitter Bootstrap Less](http://twitter.github.com/bootstrap/) - Installed and set up
+* [jQuery](http://jquery.com/) - Full version
+* [UnderscoreJS](http://underscorejs.org/) - Love it
+* [Bourbon](https://github.com/thoughtbot/bourbon) as a Mixin Library for SASS
+* My standard partials setup that I use for SASS
+
+
+Hope you like it.  If its not your cup of tea.  Make sure to head back to [AngularJS on GitHub](https://github.com/angular/angular-seed/) for the original!
+
+Below is the standard angular-seed README
 ****
 
 # angular-seed — the seed for AngularJS apps
