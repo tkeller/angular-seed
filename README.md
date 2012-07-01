@@ -1,19 +1,16 @@
 # angular-seed with preProcessors - HAML, CoffeeScript, SASS, SCSS, LESS, Stylus
 
-I created this fork of Angularjs because I've been enjoying finding excuses to play with this awesome framework.
-But I found myself constantly doing the same setup each time.
-
 This version of angular-seed provides seed files for: [HAML](http://haml.info/), [CoffeeScript](http://coffeescript.org/), [SASS](http://sass-lang.com/), [SCSS](http://sass-lang.com/), [LESS](http://lesscss.org/) and [Stylus](http://learnboost.github.com/stylus/).
 
-Each seed file can be removed if you don't want to use them.  Keep the version of CSS preProcessor you like to use, delete the rest.  Delete HAML folders or CoffeeScript if its not your thing.  Totally up to you.
+Each seed file can be removed if you don't want to use them.  Keep the version of the CSS preProcessor you like to use, delete the rest.  Delete HAML folders or CoffeeScript if its not your thing.  Totally up to you.
 
 * If you don't want to use CoffeeScript, make sure to replace js files with the duplicates in js/_originals.  That way you don't have to deal with function wrappers.
 
 ### What's different
 
-Each folder has an additional folder called 'pre'.  Inside is the respective preProcessor you might want to use with the project.
+Each section has an additional folder named 'pre'.  Inside, is a respective preProcessor you might want to use with the project.
 
-That includes:
+Including:
 
 * **_pre** - This includes a HAML version of index.html.
 * **partials/_pre** - Starter HAML files for both partials.
@@ -22,19 +19,19 @@ That includes:
 * **js/original** - Original js files.  In the event you want to use others, but not CoffeeScript.
   I would recommend reverting your js files back to the originals.
 
-### Opinionated Branch
+## Opinionated Branch
 
 Okay, so this part is really just for me.  But I'm happy to share it if someone out there might find it useful.
 
-This branch contains the assets I am using as I set up these demo projects.  And I'm happy to have this done once and for all.
+The **opinionated** branch contains assets I am using as I set up demo projects, as well as minimal configuration options.
 
 Quick highlights:
 
-* [Twitter Bootstrap Less](http://twitter.github.com/bootstrap/) - Installed and set up
+* [Twitter Bootstrap Less](http://twitter.github.com/bootstrap/) - Installed and configured with Font Awesome.
 * [jQuery](http://jquery.com/) - Full version
-* [UnderscoreJS](http://underscorejs.org/) - Love it
-* [Bourbon](https://github.com/thoughtbot/bourbon) as a Mixin Library for SASS
-* My standard partials setup that I use for SASS
+* [UnderscoreJS](http://underscorejs.org/) - A utility library for JavaScript
+* [Bourbon](https://github.com/thoughtbot/bourbon) - A Mixin Library for SASS
+* Standard partials setup that I use for SASS
 
 
 Hope you like it.  If its not your cup of tea.  Make sure to head back to [AngularJS on GitHub](https://github.com/angular/angular-seed/) for the original!
