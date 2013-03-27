@@ -1,4 +1,12 @@
-# angular-seed with HAML, CoffeeScript, SASS, SCSS, LESS, Stylus
+#angular seed with grunt for preprocessing
+
+###Getting started
+
+1. npm install to get the node modules you neeed
+2. grunt watch will look for changes in the haml, coffee and sass files
+and auto compile
+
+## angular-seed with HAML, CoffeeScript, SASS, SCSS, LESS, Stylus
 
 This version of angular-seed provides seed files for: [HAML](http://haml.info/), [CoffeeScript](http://coffeescript.org/), [SASS](http://sass-lang.com/), [SCSS](http://sass-lang.com/), [LESS](http://lesscss.org/) and [Stylus](http://learnboost.github.com/stylus/).
 
