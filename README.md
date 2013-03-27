@@ -1,4 +1,8 @@
-#angular seed with grunt for preprocessing
+# angular-seed with HAML, CoffeeScript, SASS
+
+This is an extension of
+[pensive612's](https://github.com/pensive612/angular-seed) fantastic
+angular-seed fork which adds grunt for preprocessing
 
 ###Getting started
 
@@ -6,8 +10,7 @@
 2. grunt watch will look for changes in the haml, coffee and sass files
 and auto compile
 
-## angular-seed with HAML, CoffeeScript, SASS, SCSS, LESS, Stylus
-
+## Original readme from pensive612
 This version of angular-seed provides seed files for: [HAML](http://haml.info/), [CoffeeScript](http://coffeescript.org/), [SASS](http://sass-lang.com/), [SCSS](http://sass-lang.com/), [LESS](http://lesscss.org/) and [Stylus](http://learnboost.github.com/stylus/).
 
 Each seed file can be removed if you don't want to use them.  Keep the version of the CSS preProcessor you like to use, delete the rest.  Delete HAML folders or CoffeeScript if its not your thing.  Totally up to you.
