@@ -16,16 +16,30 @@ module.exports = (grunt) ->
           'app/css/app.css' : '_app/css/app.sass'
 
     coffee:
-      glob_to_multiple: 
-        expand: true,
-        cwd: '_app/js',
-        src: ['*.coffee'],
-        dest: 'app/js',
-        ext: '.js'
+      scripts: 
+        files: [
+          expand: true,
+          cwd: './_app/js',
+          src: ['*.coffee'],
+          dest: 'app/js',
+          ext: '.js'
+        ,
+          expand: true,
+          cwd: './_test/e2e',
+          src: ['*.coffee'],
+          dest: './test/e2e',
+          ext: '.js'
+        ,
+          expand: true,
+          cwd: './_test/unit',
+          src: ['*.coffee'],
+          dest: './test/unit',
+          ext: '.js'
+        ]
 
     watch:
       js:
-        files: ['_app/js/*']
+        files: ['_app/js/*', '_test/**/*']
         tasks: ['coffee']
 
       css:

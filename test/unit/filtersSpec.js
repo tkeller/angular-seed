@@ -1,19 +1,15 @@
-'use strict';
-
-/* jasmine specs for filters go here */
-
-describe('filter', function() {
-  beforeEach(module('myApp.filters'));
-
-
-  describe('interpolate', function() {
-    beforeEach(module(function($provide) {
-      $provide.value('version', 'TEST_VER');
-    }));
-
-
-    it('should replace VERSION', inject(function(interpolateFilter) {
-      expect(interpolateFilter('before %VERSION% after')).toEqual('before TEST_VER after');
-    }));
+(function() {
+  describe('filter', function() {
+    beforeEach(module('myApp.filters'));
+    return describe('interpolate', function() {
+      beforeEach(module(function($provide) {
+        $provide.value('version', 'TEST_VER');
+        return null;
+      }));
+      return it('should replace VERSION', inject(function(interpolateFilter) {
+        return expect(interpolateFilter('before %VERSION% after')).toEqual('before TEST_VER after');
+      }));
+    });
   });
-});
+
+}).call(this);

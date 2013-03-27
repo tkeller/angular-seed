@@ -1,14 +1,11 @@
-'use strict';
-
-/* jasmine specs for services go here */
-
-describe('service', function() {
-  beforeEach(module('myApp.services'));
-
-
-  describe('version', function() {
-    it('should return current version', inject(function(version) {
-      expect(version).toEqual('0.1');
-    }));
+(function() {
+  describe('service', function() {
+    beforeEach(module('myApp.services'));
+    return describe('version', function() {
+      return it('should return current version', inject(function(version) {
+        return expect(version).toEqual('0.1');
+      }));
+    });
   });
-});
+
+}).call(this);
