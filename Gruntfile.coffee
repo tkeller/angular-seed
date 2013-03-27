@@ -8,32 +8,32 @@ module.exports = (grunt) ->
     haml:
       app:
         files: 
-          "app/index.html" : "app/_pre/index.haml"
+          "app/index.html" : "_app/index.haml"
 
     sass:
       dist:
         files: 
-          'app/css/app.css' : 'app/css/_pre/app.sass'
+          'app/css/app.css' : '_app/css/app.sass'
 
     coffee:
       glob_to_multiple: 
         expand: true,
-        cwd: 'app/js/_pre',
+        cwd: '_app/js',
         src: ['*.coffee'],
         dest: 'app/js',
         ext: '.js'
 
     watch:
       js:
-        files: ['app/js/_pre/*']
+        files: ['_app/js/*']
         tasks: ['coffee']
 
       css:
-        files: ['app/css/_pre/*']
+        files: ['_app/css/*']
         tasks: ['sass']
 
       haml:
-        files: ['app/_pre/*']
+        files: ['_app/*']
         tasks: ['haml']
 
   grunt.loadTasks "tasks"
