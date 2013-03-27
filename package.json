@@ -6,7 +6,7 @@
   "devDependencies": {
     "grunt-cli": "~0.1.6",
     "grunt-haml": "~0.3.2",
-    "grunt-contrib-coffee": "0.6.4",
+    "grunt-contrib-coffee": "~0.6.4",
     "grunt-contrib-clean": ">=0.4.0",
     "grunt-contrib-sass": "~0.3.0"
   },

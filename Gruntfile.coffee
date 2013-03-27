@@ -15,6 +15,14 @@ module.exports = (grunt) ->
         files: 
           'app/css/app.css' : 'app/css/_pre/app.sass'
 
+    coffee:
+      glob_to_multiple: 
+        expand: true,
+        cwd: 'app/js/_pre',
+        src: ['*.coffee'],
+        dest: 'app/js',
+        ext: '.js'
+
   grunt.loadTasks "tasks"
 
   grunt.loadNpmTasks('grunt-haml')
