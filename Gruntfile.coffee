@@ -23,12 +23,26 @@ module.exports = (grunt) ->
         dest: 'app/js',
         ext: '.js'
 
+    watch:
+      js:
+        files: ['app/js/_pre/*']
+        tasks: ['coffee']
+
+      css:
+        files: ['app/css/_pre/*']
+        tasks: ['sass']
+
+      haml:
+        files: ['app/_pre/*']
+        tasks: ['haml']
+
   grunt.loadTasks "tasks"
 
   grunt.loadNpmTasks('grunt-haml')
   grunt.loadNpmTasks('grunt-contrib-coffee')
   grunt.loadNpmTasks('grunt-contrib-sass')
   grunt.loadNpmTasks('grunt-contrib-clean')
+  grunt.loadNpmTasks('grunt-contrib-watch')
 
   grunt.registerTask "default", ["clean", "haml", "coffee", "sass"]
 
