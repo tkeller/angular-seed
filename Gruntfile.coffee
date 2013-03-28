@@ -9,6 +9,8 @@ module.exports = (grunt) ->
       app:
         files: 
           "app/index.html" : "_app/index.haml"
+          "app/partials/partial1.html" : "_app/partials/partial1.haml"
+          "app/partials/partial2.html" : "_app/partials/partial2.haml"
 
     sass:
       dist:
@@ -47,7 +49,7 @@ module.exports = (grunt) ->
         tasks: ['sass']
 
       haml:
-        files: ['_app/*']
+        files: ['_app/*', '_app/partials/*']
         tasks: ['haml']
 
   grunt.loadTasks "tasks"
