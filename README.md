@@ -1,4 +1,4 @@
-# angular-seed with HAML, CoffeeScript, SASS
+# angular-seed with HAML, CoffeeScript, SASS and Cucumber
 
 This is an extension of
 [pensive612's](https://github.com/pensive612/angular-seed) fantastic
@@ -9,6 +9,10 @@ angular-seed fork which adds grunt for preprocessing
 1. npm install to get the node modules you neeed
 2. grunt watch will look for changes in the haml, coffee and sass files
 and auto compile
+
+####to run cucumber
+1. ./script/web-server.js
+2. cucumber.js -f pretty
 
 ## Original readme from pensive612
 This version of angular-seed provides seed files for: [HAML](http://haml.info/), [CoffeeScript](http://coffeescript.org/), [SASS](http://sass-lang.com/), [SCSS](http://sass-lang.com/), [LESS](http://lesscss.org/) and [Stylus](http://learnboost.github.com/stylus/).
