@@ -9,7 +9,6 @@
         });
         return inject(function($compile, $rootScope) {
           var element;
-
           element = $compile('<span app-version></span>')($rootScope);
           return expect(element.text()).toEqual('TEST_VER');
         });

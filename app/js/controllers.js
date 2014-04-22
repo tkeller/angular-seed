@@ -1,5 +1,6 @@
 (function() {
-  'use strict';  this.MyCtrl1 = function() {};
+  'use strict';
+  this.MyCtrl1 = function() {};
 
   this.MyCtrl1.$inject = [];
 
